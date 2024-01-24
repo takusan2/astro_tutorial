@@ -1,0 +1,20 @@
+---
+// const snsDict: { [sns: string]: string } = {
+//   Github: 'https://github.com/takusan2?tab=repositories',
+//   X: 'https://twitter.com/takusan_spl',
+// };
+import Social from './Social.astro';
+---
+
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
+
+<footer>
+  <Social platform="Github" username="takusan2" />
+  <Social platform="X" username="takusan_spl" />
+</footer>
